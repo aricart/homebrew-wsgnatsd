@@ -6,12 +6,12 @@ class Wsgnatsd < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/aricart/wsgnatsd/releases/download/v0.8.3/wsgnatsd-v0.8.3-darwin-amd64.zip"
-    sha256 "cbe746a8e3220373aa8c43c5b2d0d4b3695adba82432bfb8917aee9bb43bd324"
+    url "https://github.com/aricart/wsgnatsd/releases/download/v0.8.3/wsgnatsd-darwin-amd64.zip"
+    sha256 "b161c2220adfd916fb0738f5a3a8cca10af87b7c08d9d136f7ea63ac19a4a78a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/aricart/wsgnatsd/releases/download/v0.8.3/wsgnatsd-v0.8.3-darwin-amd64.zip"
-      sha256 "98127c7360fbc2772d59766fbdb2559747db025ad05ec8df5b92c250eb87d318"
+      url "https://github.com/aricart/wsgnatsd/releases/download/v0.8.3/wsgnatsd-linux-amd64.zip"
+      sha256 "e5ac5694fc3ab9c8d4621dd9d95be9715162fc9002b0ace045808ce33f6142b1"
     end
   end
 
