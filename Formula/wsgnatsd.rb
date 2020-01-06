@@ -16,7 +16,7 @@ class Wsgnatsd < Formula
   end
 
   def install
-    bin.install "program"
+    bin.install "wsgnatsd"
   end
 
   test do
